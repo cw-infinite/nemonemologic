@@ -44,6 +44,7 @@ var topKFrequent = function(nums, k) {
 };
 
 // Using Map Object and no sorting
+// Time and space complexity are both O(N+K)
 
 var topKFrequent = function(nums, k) {
     const map = new Map();
